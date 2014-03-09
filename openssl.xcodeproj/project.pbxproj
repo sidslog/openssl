@@ -7,13 +7,22 @@
 	objects = {
 
 /* Begin PBXFileReference section */
+		3B27102E18CC5E58006C00C2 /* openssl.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = openssl.xcodeproj; path = openssl/openssl.xcodeproj; sourceTree = "<group>"; };
 		9069D28C0FCE659A0042E34C /* libcrypto.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libcrypto.a; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXGroup section */
+		3B27102F18CC5E58006C00C2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 		9069D12D0FCE340B0042E34C = {
 			isa = PBXGroup;
 			children = (
+				3B27102E18CC5E58006C00C2 /* openssl.xcodeproj */,
 				9069D25C0FCE62420042E34C /* Products */,
 			);
 			sourceTree = "<group>";
@@ -64,6 +73,12 @@
 			);
 			mainGroup = 9069D12D0FCE340B0042E34C;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 3B27102F18CC5E58006C00C2 /* Products */;
+					ProjectRef = 3B27102E18CC5E58006C00C2 /* openssl.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				9069D28B0FCE659A0042E34C /* crypto */,
@@ -137,6 +152,7 @@
 				GCC_MODEL_TUNING = G5;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				INSTALL_PATH = /usr/local/lib;
+				OPENSSL_SRC = "$(PROJECT_HOME)/openssl";
 				PRODUCT_NAME = crypto;
 			};
 			name = Debug;
@@ -150,6 +166,7 @@
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				GCC_MODEL_TUNING = G5;
 				INSTALL_PATH = /usr/local/lib;
+				OPENSSL_SRC = "$(PROJECT_HOME)/openssl";
 				PRODUCT_NAME = crypto;
 				ZERO_LINK = NO;
 			};

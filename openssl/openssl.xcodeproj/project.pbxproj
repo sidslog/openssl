@@ -1,0 +1,238 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXFileReference section */
+		3B270FF418CC5E58006C00C2 /* ACKNOWLEDGMENTS */ = {isa = PBXFileReference; lastKnownFileType = text; path = ACKNOWLEDGMENTS; sourceTree = "<group>"; };
+		3B270FF518CC5E58006C00C2 /* apps */ = {isa = PBXFileReference; lastKnownFileType = folder; path = apps; sourceTree = "<group>"; };
+		3B270FF618CC5E58006C00C2 /* bugs */ = {isa = PBXFileReference; lastKnownFileType = folder; path = bugs; sourceTree = "<group>"; };
+		3B270FF718CC5E58006C00C2 /* certs */ = {isa = PBXFileReference; lastKnownFileType = folder; path = certs; sourceTree = "<group>"; };
+		3B270FF818CC5E58006C00C2 /* CHANGES */ = {isa = PBXFileReference; lastKnownFileType = text; path = CHANGES; sourceTree = "<group>"; };
+		3B270FF918CC5E58006C00C2 /* CHANGES.SSLeay */ = {isa = PBXFileReference; lastKnownFileType = text; path = CHANGES.SSLeay; sourceTree = "<group>"; };
+		3B270FFA18CC5E58006C00C2 /* config */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = config; sourceTree = "<group>"; };
+		3B270FFB18CC5E58006C00C2 /* Configure */ = {isa = PBXFileReference; lastKnownFileType = text; path = Configure; sourceTree = "<group>"; };
+		3B270FFC18CC5E58006C00C2 /* crypto */ = {isa = PBXFileReference; lastKnownFileType = folder; path = crypto; sourceTree = "<group>"; };
+		3B270FFD18CC5E58006C00C2 /* demos */ = {isa = PBXFileReference; lastKnownFileType = folder; path = demos; sourceTree = "<group>"; };
+		3B270FFE18CC5E58006C00C2 /* doc */ = {isa = PBXFileReference; lastKnownFileType = folder; path = doc; sourceTree = "<group>"; };
+		3B270FFF18CC5E58006C00C2 /* e_os.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = e_os.h; sourceTree = "<group>"; };
+		3B27100018CC5E58006C00C2 /* e_os2.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = e_os2.h; sourceTree = "<group>"; };
+		3B27100118CC5E58006C00C2 /* engines */ = {isa = PBXFileReference; lastKnownFileType = folder; path = engines; sourceTree = "<group>"; };
+		3B27100218CC5E58006C00C2 /* FAQ */ = {isa = PBXFileReference; lastKnownFileType = text; path = FAQ; sourceTree = "<group>"; };
+		3B27100318CC5E58006C00C2 /* include */ = {isa = PBXFileReference; lastKnownFileType = folder; path = include; sourceTree = "<group>"; };
+		3B27100418CC5E58006C00C2 /* INSTALL */ = {isa = PBXFileReference; lastKnownFileType = text; path = INSTALL; sourceTree = "<group>"; };
+		3B27100518CC5E58006C00C2 /* install.com */ = {isa = PBXFileReference; lastKnownFileType = text; path = install.com; sourceTree = "<group>"; };
+		3B27100618CC5E58006C00C2 /* INSTALL.DJGPP */ = {isa = PBXFileReference; lastKnownFileType = text; path = INSTALL.DJGPP; sourceTree = "<group>"; };
+		3B27100718CC5E58006C00C2 /* INSTALL.MacOS */ = {isa = PBXFileReference; lastKnownFileType = text; path = INSTALL.MacOS; sourceTree = "<group>"; };
+		3B27100818CC5E58006C00C2 /* INSTALL.NW */ = {isa = PBXFileReference; lastKnownFileType = text; path = INSTALL.NW; sourceTree = "<group>"; };
+		3B27100918CC5E58006C00C2 /* INSTALL.OS2 */ = {isa = PBXFileReference; lastKnownFileType = text; path = INSTALL.OS2; sourceTree = "<group>"; };
+		3B27100A18CC5E58006C00C2 /* INSTALL.VMS */ = {isa = PBXFileReference; lastKnownFileType = text; path = INSTALL.VMS; sourceTree = "<group>"; };
+		3B27100B18CC5E58006C00C2 /* INSTALL.W32 */ = {isa = PBXFileReference; lastKnownFileType = text; path = INSTALL.W32; sourceTree = "<group>"; };
+		3B27100C18CC5E58006C00C2 /* INSTALL.W64 */ = {isa = PBXFileReference; lastKnownFileType = text; path = INSTALL.W64; sourceTree = "<group>"; };
+		3B27100D18CC5E58006C00C2 /* INSTALL.WCE */ = {isa = PBXFileReference; lastKnownFileType = text; path = INSTALL.WCE; sourceTree = "<group>"; };
+		3B27100E18CC5E58006C00C2 /* LICENSE */ = {isa = PBXFileReference; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		3B27100F18CC5E58006C00C2 /* MacOS */ = {isa = PBXFileReference; lastKnownFileType = folder; path = MacOS; sourceTree = "<group>"; };
+		3B27101018CC5E58006C00C2 /* Makefile */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.make; path = Makefile; sourceTree = "<group>"; };
+		3B27101118CC5E58006C00C2 /* Makefile.bak */ = {isa = PBXFileReference; lastKnownFileType = text; path = Makefile.bak; sourceTree = "<group>"; };
+		3B27101218CC5E58006C00C2 /* Makefile.org */ = {isa = PBXFileReference; lastKnownFileType = text; path = Makefile.org; sourceTree = "<group>"; };
+		3B27101318CC5E58006C00C2 /* Makefile.shared */ = {isa = PBXFileReference; lastKnownFileType = text; path = Makefile.shared; sourceTree = "<group>"; };
+		3B27101418CC5E58006C00C2 /* makevms.com */ = {isa = PBXFileReference; lastKnownFileType = text; path = makevms.com; sourceTree = "<group>"; };
+		3B27101518CC5E58006C00C2 /* ms */ = {isa = PBXFileReference; lastKnownFileType = folder; path = ms; sourceTree = "<group>"; };
+		3B27101618CC5E58006C00C2 /* Netware */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Netware; sourceTree = "<group>"; };
+		3B27101718CC5E58006C00C2 /* NEWS */ = {isa = PBXFileReference; lastKnownFileType = text; path = NEWS; sourceTree = "<group>"; };
+		3B27101B18CC5E58006C00C2 /* openssl.doxy */ = {isa = PBXFileReference; lastKnownFileType = text; path = openssl.doxy; sourceTree = "<group>"; };
+		3B27101C18CC5E58006C00C2 /* openssl.spec */ = {isa = PBXFileReference; lastKnownFileType = text; path = openssl.spec; sourceTree = "<group>"; };
+		3B27101D18CC5E58006C00C2 /* os2 */ = {isa = PBXFileReference; lastKnownFileType = folder; path = os2; sourceTree = "<group>"; };
+		3B27101E18CC5E58006C00C2 /* perl */ = {isa = PBXFileReference; lastKnownFileType = folder; path = perl; sourceTree = "<group>"; };
+		3B27101F18CC5E58006C00C2 /* PROBLEMS */ = {isa = PBXFileReference; lastKnownFileType = text; path = PROBLEMS; sourceTree = "<group>"; };
+		3B27102018CC5E58006C00C2 /* README */ = {isa = PBXFileReference; lastKnownFileType = text; path = README; sourceTree = "<group>"; };
+		3B27102118CC5E58006C00C2 /* README.ASN1 */ = {isa = PBXFileReference; lastKnownFileType = text; path = README.ASN1; sourceTree = "<group>"; };
+		3B27102218CC5E58006C00C2 /* README.ENGINE */ = {isa = PBXFileReference; lastKnownFileType = text; path = README.ENGINE; sourceTree = "<group>"; };
+		3B27102318CC5E58006C00C2 /* shlib */ = {isa = PBXFileReference; lastKnownFileType = folder; path = shlib; sourceTree = "<group>"; };
+		3B27102418CC5E58006C00C2 /* ssl */ = {isa = PBXFileReference; lastKnownFileType = folder; path = ssl; sourceTree = "<group>"; };
+		3B27102518CC5E58006C00C2 /* test */ = {isa = PBXFileReference; lastKnownFileType = folder; path = test; sourceTree = "<group>"; };
+		3B27102618CC5E58006C00C2 /* times */ = {isa = PBXFileReference; lastKnownFileType = folder; path = times; sourceTree = "<group>"; };
+		3B27102718CC5E58006C00C2 /* tools */ = {isa = PBXFileReference; lastKnownFileType = folder; path = tools; sourceTree = "<group>"; };
+		3B27102818CC5E58006C00C2 /* util */ = {isa = PBXFileReference; lastKnownFileType = folder; path = util; sourceTree = "<group>"; };
+		3B27102918CC5E58006C00C2 /* VMS */ = {isa = PBXFileReference; lastKnownFileType = folder; path = VMS; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		3B270FEE18CC5E58006C00C2 = {
+			isa = PBXGroup;
+			children = (
+				3B270FF418CC5E58006C00C2 /* ACKNOWLEDGMENTS */,
+				3B270FF518CC5E58006C00C2 /* apps */,
+				3B270FF618CC5E58006C00C2 /* bugs */,
+				3B270FF718CC5E58006C00C2 /* certs */,
+				3B270FF818CC5E58006C00C2 /* CHANGES */,
+				3B270FF918CC5E58006C00C2 /* CHANGES.SSLeay */,
+				3B270FFA18CC5E58006C00C2 /* config */,
+				3B270FFB18CC5E58006C00C2 /* Configure */,
+				3B270FFC18CC5E58006C00C2 /* crypto */,
+				3B270FFD18CC5E58006C00C2 /* demos */,
+				3B270FFE18CC5E58006C00C2 /* doc */,
+				3B270FFF18CC5E58006C00C2 /* e_os.h */,
+				3B27100018CC5E58006C00C2 /* e_os2.h */,
+				3B27100118CC5E58006C00C2 /* engines */,
+				3B27100218CC5E58006C00C2 /* FAQ */,
+				3B27100318CC5E58006C00C2 /* include */,
+				3B27100418CC5E58006C00C2 /* INSTALL */,
+				3B27100518CC5E58006C00C2 /* install.com */,
+				3B27100618CC5E58006C00C2 /* INSTALL.DJGPP */,
+				3B27100718CC5E58006C00C2 /* INSTALL.MacOS */,
+				3B27100818CC5E58006C00C2 /* INSTALL.NW */,
+				3B27100918CC5E58006C00C2 /* INSTALL.OS2 */,
+				3B27100A18CC5E58006C00C2 /* INSTALL.VMS */,
+				3B27100B18CC5E58006C00C2 /* INSTALL.W32 */,
+				3B27100C18CC5E58006C00C2 /* INSTALL.W64 */,
+				3B27100D18CC5E58006C00C2 /* INSTALL.WCE */,
+				3B27100E18CC5E58006C00C2 /* LICENSE */,
+				3B27100F18CC5E58006C00C2 /* MacOS */,
+				3B27101018CC5E58006C00C2 /* Makefile */,
+				3B27101118CC5E58006C00C2 /* Makefile.bak */,
+				3B27101218CC5E58006C00C2 /* Makefile.org */,
+				3B27101318CC5E58006C00C2 /* Makefile.shared */,
+				3B27101418CC5E58006C00C2 /* makevms.com */,
+				3B27101518CC5E58006C00C2 /* ms */,
+				3B27101618CC5E58006C00C2 /* Netware */,
+				3B27101718CC5E58006C00C2 /* NEWS */,
+				3B27101B18CC5E58006C00C2 /* openssl.doxy */,
+				3B27101C18CC5E58006C00C2 /* openssl.spec */,
+				3B27101D18CC5E58006C00C2 /* os2 */,
+				3B27101E18CC5E58006C00C2 /* perl */,
+				3B27101F18CC5E58006C00C2 /* PROBLEMS */,
+				3B27102018CC5E58006C00C2 /* README */,
+				3B27102118CC5E58006C00C2 /* README.ASN1 */,
+				3B27102218CC5E58006C00C2 /* README.ENGINE */,
+				3B27102318CC5E58006C00C2 /* shlib */,
+				3B27102418CC5E58006C00C2 /* ssl */,
+				3B27102518CC5E58006C00C2 /* test */,
+				3B27102618CC5E58006C00C2 /* times */,
+				3B27102718CC5E58006C00C2 /* tools */,
+				3B27102818CC5E58006C00C2 /* util */,
+				3B27102918CC5E58006C00C2 /* VMS */,
+			);
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXLegacyTarget section */
+		3B270FF318CC5E58006C00C2 /* openssl */ = {
+			isa = PBXLegacyTarget;
+			buildArgumentsString = "$(ACTION)";
+			buildConfigurationList = 3B27102B18CC5E58006C00C2 /* Build configuration list for PBXLegacyTarget "openssl" */;
+			buildPhases = (
+			);
+			buildToolPath = /usr/bin/make;
+			buildWorkingDirectory = "/Users/sidslog/Documents/projects/c/openssl-xcode/openssl";
+			dependencies = (
+			);
+			name = openssl;
+			passBuildSettingsInEnvironment = 1;
+			productName = openssl;
+		};
+/* End PBXLegacyTarget section */
+
+/* Begin PBXProject section */
+		3B270FEF18CC5E58006C00C2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+			};
+			buildConfigurationList = 3B270FF218CC5E58006C00C2 /* Build configuration list for PBXProject "openssl" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 3B270FEE18CC5E58006C00C2;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3B270FF318CC5E58006C00C2 /* openssl */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin XCBuildConfiguration section */
+		3B270FF018CC5E58006C00C2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				COPY_PHASE_STRIP = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx10.6;
+			};
+			name = Debug;
+		};
+		3B270FF118CC5E58006C00C2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				COPY_PHASE_STRIP = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				SDKROOT = macosx10.6;
+			};
+			name = Release;
+		};
+		3B27102C18CC5E58006C00C2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = NO;
+				DEBUGGING_SYMBOLS = YES;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = openssl;
+			};
+			name = Debug;
+		};
+		3B27102D18CC5E58006C00C2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = openssl;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3B270FF218CC5E58006C00C2 /* Build configuration list for PBXProject "openssl" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3B270FF018CC5E58006C00C2 /* Debug */,
+				3B270FF118CC5E58006C00C2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3B27102B18CC5E58006C00C2 /* Build configuration list for PBXLegacyTarget "openssl" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3B27102C18CC5E58006C00C2 /* Debug */,
+				3B27102D18CC5E58006C00C2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3B270FEF18CC5E58006C00C2 /* Project object */;
+}
